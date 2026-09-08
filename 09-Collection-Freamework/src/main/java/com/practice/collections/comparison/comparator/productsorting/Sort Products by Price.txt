@@ -1,0 +1,17 @@
+Sort Products by Price
+
+Create a Product POJO with: name, price
+
+Use Comparator to sort products by price in descending order.
+
+Input
+
+Product("Laptop", 50000) -> Product("Mouse", 1000) -> 
+Product("Monitor", 15000) -> Product("Keyboard", 2000)
+
+Expected Output
+
+Laptop - 50000 -> Monitor - 15000 -> 
+Keyboard - 2000 -> Mouse - 1000
+
+Requirement: Do not implement Comparable. Use a Comparator<Product> for sorting.

@@ -1,0 +1,18 @@
+Find Common Employees
+
+Create an Employee POJO with: id, name
+
+Given two List<Employee>, find employees present in both lists 
+based on id.
+
+Input
+
+List 1: Employee(101, "Ravi") -> Employee(102, "Amit") -> 
+Employee(103, "Neha")
+
+List 2: Employee(102, "Amit") -> Employee(103, "Neha") -> 
+Employee(104, "Kiran")
+
+Expected Output
+
+102 - Amit -> 103 - Neha

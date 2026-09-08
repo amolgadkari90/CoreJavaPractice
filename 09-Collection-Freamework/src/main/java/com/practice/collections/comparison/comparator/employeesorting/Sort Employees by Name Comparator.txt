@@ -1,0 +1,31 @@
+Sort Employees by Name
+
+Create an Employee POJO with: id, name
+
+Use Comparator to sort employees by name alphabetically.
+
+Input
+Employee(101, "Ravi") -> Employee(102, "Amit") -> Employee(103, "Neha") -> Employee(104, "Kiran")
+
+Expected Output
+102 Amit -> 104 Kiran -> 103 Neha ->101 Ravi
+
+Requirement: Do not implement Comparable. Use a Comparator<Employee> for sorting.
+
+----------------------------------------------------------------------
+
+Easy: Sort Students by ID Descending
+
+Create a Student POJO with: id, name
+
+Use Comparator to sort students by id in descending order.
+
+Input
+
+Student(101, "Amit") -> Student(104, "Ravi") -> Student(102, "Neha") -> Student(103, "Kiran")
+
+Expected Output
+
+104 Ravi -> 103 Kiran -> 102 Neha -> 101 Amit
+
+Requirement: Do not implement Comparable. Use a Comparator<Student> for sorting.

@@ -1,0 +1,11 @@
+Remove Duplicate Employees by ID
+
+Create an Employee POJO with: id, name
+
+Task: Remove duplicate employees based on id, 
+preserving the first occurrence.
+
+Input: 101-Amit → 102-Rahul → 101-Ajay → 103-Neha → 
+102-Rohit
+
+Expected Output: 101-Amit → 102-Rahul → 103-Neha

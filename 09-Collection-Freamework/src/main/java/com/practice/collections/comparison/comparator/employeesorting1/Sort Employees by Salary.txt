@@ -1,0 +1,18 @@
+Sort Employees by Salary, Then Name
+
+Create an Employee POJO with: name, salary
+
+Sort employees by salary descending. If salary is same, sort by 
+name alphabetically.
+
+Input
+Employee("Ravi", 50000) -> Employee("Amit", 70000) -> 
+Employee("Neha", 50000) -> Employee("Kiran", 70000)
+
+Expected Output
+
+Amit - 70000 -> Kiran - 70000 -> 
+Neha - 50000 -> Ravi - 50000
+
+Requirement: Do not implement Comparable. 
+Use a Comparator<Employee> with two-level sorting.

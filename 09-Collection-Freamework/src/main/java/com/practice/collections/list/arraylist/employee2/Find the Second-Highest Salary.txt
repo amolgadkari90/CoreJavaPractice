@@ -1,0 +1,13 @@
+Find the Second-Highest Salary
+
+Create an Employee POJO with: id, name, salary
+
+Task: Find the employee with the second-highest distinct salary.
+
+Input: Employee(101, "Amit", 80000.0) → 
+Employee(102, "Rahul", 95000.0) → Employee(103, "Ajay", 95000.0) → 
+Employee(104, "Neha", 70000.0) → Employee(105, "Rohit", 85000.0)
+
+Expected Output: Employee(105, "Rohit", 85000.0)
+
+Requirement: Handle duplicate salaries correctly and choose the most optimized, production-appropriate approach.

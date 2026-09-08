@@ -1,0 +1,13 @@
+Remove Duplicate Names
+
+Create a List<String> containing employee names.
+
+Remove all duplicate names while preserving the original insertion order.
+
+Input
+
+"Ravi" -> "Amit" -> "Neha" -> "Ravi" -> "Kiran" -> "Amit"
+
+Expected Output
+
+"Ravi" -> "Amit" -> "Neha" -> "Kiran"

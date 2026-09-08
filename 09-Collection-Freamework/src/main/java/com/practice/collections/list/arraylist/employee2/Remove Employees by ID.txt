@@ -1,0 +1,14 @@
+Remove Employees by ID
+
+Create an Employee POJO with: id, name
+
+Given a list of employees and an id, remove all employees having that ID.
+
+Input
+
+Employees: Employee(101, "Ravi") -> Employee(102, "Amit") -> Employee(101, "Neha") -> Employee(103, "Kiran") -> Employee(101, "Suresh")
+ID to remove: 101
+
+Expected Output
+
+102 - Amit -> 103 - Kiran

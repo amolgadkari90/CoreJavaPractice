@@ -1,0 +1,20 @@
+Sort Employees by Multiple Rules
+
+Create an Employee POJO with: name, department, salary
+
+Sort employees using Comparator with these rules:
+
+Department alphabetically ascending
+Salary descending
+Name alphabetically ascending
+
+Input
+
+Employee("Ravi", "IT", 70000) -> Employee("Amit", "HR", 60000) -> 
+Employee("Neha", "IT", 80000) -> Employee("Kiran", "HR", 60000) -> 
+Employee("Suresh", "IT", 70000)
+
+Expected Output
+
+Amit - HR - 60000 -> Kiran - HR - 60000 -> Neha - IT - 80000 -> 
+Ravi - IT - 70000 -> Suresh - IT - 70000

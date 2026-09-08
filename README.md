@@ -1,0 +1,2 @@
+# CoreJavaPractice
+Topic-Wise Practice
