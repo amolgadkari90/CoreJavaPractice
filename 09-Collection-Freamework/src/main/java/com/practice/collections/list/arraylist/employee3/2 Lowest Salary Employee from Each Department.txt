@@ -1,0 +1,18 @@
+Lowest Salary Employee from Each Department
+
+Create an Employee POJO with: id, name, department, salary
+
+Task: Find the lowest-paid employee from each department.
+
+Input: 
+Employee(101, "Amit", "IT", 80000.0) → 
+Employee(102, "Rahul", "HR", 70000.0) → 
+Employee(103, "Ajay", "IT", 95000.0) → 
+Employee(104, "Neha", "HR", 85000.0) → 
+Employee(105, "Rohit", "Finance", 90000.0) → 
+Employee(106, "Priya", "Finance", 85000.0)
+
+Expected Output: 
+IT → Employee(101, "Amit", "IT", 80000.0) | 
+HR → Employee(102, "Rahul", "HR", 70000.0) | 
+Finance → Employee(106, "Priya", "Finance", 85000.0)

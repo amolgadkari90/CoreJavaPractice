@@ -1,0 +1,21 @@
+Department-Wise Average Salary
+
+Create an Employee POJO with: id, name, department, salary
+
+Task: Calculate the average salary of employees in each department.
+
+Input: 
+Employee(101, "Amit", "IT", 80000.0) → 
+Employee(102, "Rahul", "HR", 70000.0) → 
+Employee(103, "Ajay", "IT", 95000.0) → 
+Employee(104, "Neha", "HR", 85000.0) → 
+Employee(105, "Rohit", "Finance", 90000.0) → 
+Employee(106, "Priya", "Finance", 85000.0)
+
+Expected Output: 
+IT → 87500.0 | 
+HR → 77500.0 | 
+Finance → 87500.0
+
+Requirement: Use the most optimized, production-appropriate approach. 
+Do not sort the employees.

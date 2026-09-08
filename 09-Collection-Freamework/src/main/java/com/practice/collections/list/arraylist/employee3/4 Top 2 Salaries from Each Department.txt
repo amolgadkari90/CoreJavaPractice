@@ -1,0 +1,26 @@
+Medium: Top 2 Salaries from Each Department
+
+Create an Employee POJO with:
+
+id, name, department, salary
+
+Task: Find the top 2 highest-paid distinct-salary employees from each department. Preserve the employee details.
+
+Input:
+Employee(101, "Amit", "IT", 80000.0) → 
+Employee(102, "Rahul", "HR", 70000.0) → 
+Employee(103, "Ajay", "IT", 95000.0) → 
+Employee(104, "Neha", "HR", 85000.0) → 
+Employee(105, "Rohit", "Finance", 90000.0) → 
+Employee(106, "Priya", "Finance", 85000.0) → 
+Employee(107, "Vikas", "IT", 90000.0) → 
+Employee(108, "Sneha", "HR", 85000.0)
+
+Expected Output:
+
+IT      -> Ajay(95000.0), Vikas(90000.0)
+HR      -> Neha(85000.0), Rahul(70000.0)
+Finance -> Rohit(90000.0), Priya(85000.0)
+
+Requirement: Use an appropriate Map/List/Set combination and aim for the best practical time 
+complexity.
